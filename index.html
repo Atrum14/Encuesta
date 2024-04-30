@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuestas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sistema de Encuestas</h1>
+      <div class="encuesta">
+        <h2>Cual es tu lenguaje de progamacion favorito?</h2>
+        <div class="opciones">
+          <div class="opcion">
+            <input type="radio" id="opcion1" name="encuesta" value="opcion1" />
+            <label for="opcion1">Javascript</label>
+          </div>
+          <div class="opcion">
+            <input type="radio" id="opcion2" name="encuesta" value="opcion2" />
+            <label for="opcion2">Python</label>
+          </div>
+          <div class="opcion">
+            <input type="radio" id="opcion3" name="encuesta" value="opcion3" />
+            <label for="opcion3">Java</label>
+          </div>
+          <div class="opcion">
+            <input type="radio" id="opcion4" name="encuesta" value="opcion4" />
+            <label for="opcion4">C++</label>
+          </div>
+        </div>
+        <button onclick="submitVote()">Votar</button>
+        <div id="resultado"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
